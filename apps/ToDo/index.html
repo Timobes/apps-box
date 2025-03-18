@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>ToDo</title>
+</head>
+    <body>
+        <div class="main">
+            <div class="main-block" id="main1">
+                <h1>В разработке</h1>
+
+                <input type="text" id="inp" placeholder="Задача" onchange="newInp(this)"/>
+                <button onclick="send()" class="btn">Добавить задачу</button>
+            </div>
+            <div class="line"></div>
+            <div class="main-block" id="main2">
+                <h1>Выполненные</h1>
+
+            </div>
+        </div>
+
+
+
+        <script src="script.js"></script>
+    </body>
+</html>

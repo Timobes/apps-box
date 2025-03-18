@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    border: 0 solid;
+}
+
+.main {
+    display: flex;
+
+}
+
+.main-block {
+    width: 50%;
+    height: 100%;
+
+    text-align: center;
+}
+
+#inp {
+    width: 400px;
+    height: 30px;
+}
+
+.btn {
+    padding: 10px;
+}
+
+.btn-create {
+    padding: 5px;
+    background-color: green;
+    color: #fff;
+}
+
+.btn-del {
+    padding: 5px;
+    background-color: red;
+    color: #fff;
+}
+
+.btn-create,
+.btn-del:hover {
+    cursor: pointer ;
+}
+
+.line {
+    width: 100%;
+    height: 10px;
+    background-color: #000;
+
+    border: 1px solid;
+    transform: rotate(90deg);
+
+    position: absolute;
+}
+
+.text {
+    font-size: 20px;
+}
